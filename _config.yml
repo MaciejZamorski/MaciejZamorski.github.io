@@ -1,0 +1,241 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Maciej Zamorski, Ph.D.
+title: Machine Learning / Artificial Intelligence Researcher & Engineer
+email: maciej@zamorski.me
+website: https://www.zamorski.me
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: facespics
+github_username:  MaciejZamorski
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+linkedin_username: maciejzamorski
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Google Scholar
+  icon: ai ai-google-scholar big-icon
+  url: https://scholar.google.com/citations?user=h_vyxT0AAAAJ
+- title: CV
+  icon: ai ai-cv big-icon
+  url: https://www.zamorski.me/assets/Maciej_Zamorski_CV.pdf
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+#about_title: About Me
+about_title: " "
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Goal-oriented machine learning researcher and engineer with 6 years of commercial experience in transforming AI-powered R&D projects from idea to implementation stage. 
+  
+  Author and co-author of 10 scientific publications accepted into renowned journals and conferences. 
+  
+  Research interests include 3D computer vision, generative modeling, and medical imaging.
+#  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+#
+#  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+
+content:
+#  - title: Projects # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: top-middle
+#        title: Super awesome project
+#        link: github.com/sproogen
+#        # link_text: Project Website
+#        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: github.com/sproogen/modern-resume-theme
+#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#          #   icon: fab fa-github
+#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#        quote: >
+#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#        description: | # this will include new lines to allow paragraphs
+#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Hemolens Diagnostics
+        link: https://hemolens.eu
+        # link_text: boringcompany.com
+        sub_title: Senior Machine Learning Engineer
+        caption: Oct 2021 - Present
+#        quote: >
+#          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          **Led R&D projects** in the areas of medical image segmentation and fluid simulation, coordinated datasets preparation, collected feedback from medical experts, and participated in patent filling process, as well as supervised mid and junior-level engineers.
+
+      - layout: left
+        title: Wrocław University of Science and Technology
+        link: https://www.pwr.edu.pl
+        sub_title: Teaching Assistant
+        caption: Feb 2019 - Sep 2022
+        description: | # this will include new lines to allow paragraphs
+          **Prepared and taught bachelor-level courses** on topics such as machine learning and approximating differential equations. 
+          Helped with **thesis supervision** of bachelor and master-level students.
+
+      - layout: left
+        title: Tooploox
+        link: https://www.tooploox.com
+        sub_title: Machine Learning Researcher
+        caption: Aug 2018 - Apr 2021
+        description: | # this will include new lines to allow paragraphs
+          **Co-led and was involved in research projects** that resulted in 3 major scientific publications, including acceptance to ICML 2020. 
+          
+          **Led and co-led several commercial projects** that included discovering client needs, performing feasibility studies, defining project scope for PoC and MVP milestones, and conducting R&D work in areas of deep learning and computer vision.
+
+      - layout: left
+        title: Alphamoon
+        link: https://www.alphamoon.ai
+        sub_title: Machine Learning Enginner
+        caption: Feb 2019 - Sep 2022
+        description: | # this will include new lines to allow paragraphs
+          Involved in **journal-published research project** in bioinformatics & machine learning areas.
+          
+          In commercial projects worked on implementation, testing, and documentation as well as providing reports to clients.
+
+      - layout: left
+        title: Nokia
+        link: https://www.nokia.com
+        sub_title: Python Engineer
+        caption: Jul 2016 - Jan 2017
+        description: | # this will include new lines to allow paragraphs
+          Worked in Test Automation team. Created tools to automate the job of manual testers, wrote & refactored Python libraries, management the SVN code repository.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: Wrocław University of Science and Technology
+#        caption: 2018 - 2022
+#        sub_title: Ph.D. in Computer Science Machine Learning
+##        quote: >
+##          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+#        description: | # this will include new lines to allow paragraphs
+#          - Cum laude
+#          - Area of research: Deep learning, neural networks, representation learning, 3D computer vision
+#          - Thesis ''Representation learning on point cloud data with deep neural networks''
+      - layout: left
+#        title: Wrocław University of Science and Technology
+        caption: 2018 - 2022
+        sub_title: Ph.D. in Computer Science Machine Learning
+        #        quote: >
+        #          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - *Cum laude*
+          - Area of research: Deep learning, neural networks, representation learning, 3D computer vision
+          - Thesis ''Representation learning on point cloud data with deep neural networks''
+      - layout: left
+#        title: Wrocław University of Science and Technology
+        caption: 2013 - 2018
+        sub_title: B.Eng. & M.Sc. in Computer Science
+        #        quote: >
+        #          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - Specialization in Artificial Intelligence
+          - Thesis ''Adaptation of BiGAN models for semi-supervised learning''
+
+  - title: Publications
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **Zamorski, M.**, Stypułkowski, M., Karanowski, K., , Trzciński, T., Zięba, M. (2022). Continual learning on 3D point clouds with random compressed rehearsal. *Computer Vision and Image Understanding (CVIU)*
+      - Stypułkowski, M., Kania, K., **Zamorski, M.**, Zięba, M., Trzciński, T., Chorowski, J. (2021). Conditional Invertible Flow for Point Cloud Generation. *Pattern Recognition Letters*
+      - Spurek, P., Winczowski, S., Tabor, J., **Zamorski, M.**, Zięba, M., Trzciński, T. (2020). Hypernetwork approach to generating point clouds. *International Conference on Machine Learning (ICML)*
+      - **Zamorski, M.**, Zięba, M., Świątek, J. (2020). Generative Modeling in Application to Point Cloud Completion. *International Conference on Artificial Intelligence and Soft Computing (ICAISC)*
+      - **Zamorski, M.**, Zięba, M., Świątek, J. (2020). Comparison of Aggregation Functions for 3D Point Clouds Classification. *Intelligent Information and Database Systems (IIDS)*
+      - **Zamorski, M.* **, Zięba, M.*, Klukowski, P., Nowak, R., Kurach, K., Stokowiec, W., Trzciński, T. (2020). Adversarial Autoencoders for Compact Representations of 3D Point Clouds. *Computer Vision and Image Understanding (CVIU)*
+      - Stypułkowski, M., **Zamorski, M.**, Zięba, M., Chorowski, J. (2019). Conditional Invertible Flow for Point Cloud Generation. *NeurIPS 2019 Workshop on Sets and Partitions*
+      - **Zamorski, M.**, Zdobylak, A., Zięba, M., Świątek, J. (2019). Generative Adversarial Networks: recent developments. *International Conference on Artificial Intelligence and Soft Computing (ICAISC)*
+      - **Zamorski, M.**, Zięba, M. (2019). Semi-supervised learning with Bidirectional GANs. *Intelligent Information and Database Systems (IIDS)*
+      - Klukowski, P.*, Augoff, M.*, **Zamorski, M.**, Gonczarek, A., Walczak, M. J. (2018). Application of Dirichlet process mixture model to the identification of spin systems in protein NMR spectra. *Journal of biomolecular NMR*
+
+
+  - title: Selected Activity # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: ML in PL Conference
+        caption: 2022
+#        sub_title: PhD Computer Science / Machine Learning
+        #        quote: >
+        #          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - Presented poster ‘Continual learning on 3D point clouds with random compressed rehearsal‘.
+      - layout: left
+        title: ML in PL Conference (prev. PL in ML)
+        caption: 2019
+        #        sub_title: PhD Computer Science / Machine Learning
+        #        quote: >
+        #          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - Gave the oral presentation ”Adversarial Autoencoders for Compact Representations of 3D Point Clouds”
+          - Co-conducted a full-day workshop ”Flow-Based Generative models”.
+      - layout: left
+        title: PL in ML - Polish View on Machine Learning Conference
+        caption: 2018
+        #        sub_title: PhD Computer Science / Machine Learning
+        #        quote: >
+        #          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - Co-conducted a full-day workshop ”Practical Aspects of Generative Models” for 30 attendees as a part of one of the biggest Polish machine learning conferences.
+      - layout: left
+        title: TEDx Wrocław
+        caption: 2014, 2015, 2016
+        #        sub_title: PhD Computer Science / Machine Learning
+        #        quote: >
+        #          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - Volunteer for TEDx Wrocław main events. Worked in an international group. 
+          Responsible for cooperating with the audio engineer and continuous service of a conference rooms sound systems.
+      - layout: left
+        title: AIESEC Wrocław University of Technology
+        caption: 2014 - 2015
+        #        sub_title: PhD Computer Science / Machine Learning
+        #        quote: >
+        #          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - Leader of the team organizing work & travel in Lower Silesia region for foreign student volunteers.
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
